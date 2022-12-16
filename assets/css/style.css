@@ -84,7 +84,7 @@ html {
   position: relative;
   margin-top: 46.5px;
   padding-top: 50%;
-  background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
+  background: url("../img/slider/slider1.jpg") top center / cover no-repeat;
 }
 #slider .text-content {
   position: absolute;
@@ -125,11 +125,65 @@ html {
   font-weight: 500;
   letter-spacing: 4px;
 }
-#content .about-text{
+#content .about-text {
   margin-top: 25px;
   font-size: 15px;
   line-height: 1.4;
   text-align: justify;
+}
+#content .member-list {
+  margin-top: 48px;
+}
+#content .member-item {
+  float: left;
+  width: 33.33333%;
+  text-align: center;
+}
+#content .member-name {
+  font-size: 15px;
+}
+#content .member-img {
+  width: 154px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+.clear{
+  clear: both;
+}
+.text-white{
+  color: #fff !important;
+}
+.tour-section{
+  background-color: #000;
+}
+.ticket-list{
+  background-color: #fff;
+  margin-top: 40px;
+}
+.ticket-list li{
+  list-style: none;
+  font-size: 15px;
+  padding: 11px 16px;
+  border-bottom: 1px solid #ddd;
+  color:#757575;
+}
+.ticket-list .sold-out{
+background-color: #f44336;
+color: white;
+padding: 3px 4px;
+margin-left: 16px;
+} 
+
+.ticket-list .quantity{
+float: right;
+width: 24px;
+height: 24px;
+background-color: #000;
+color: white;
+border-radius: 50%;
+text-align: center;
+line-height: 24px;
+margin-top: -3px;
 }
 #footer {
 }
